@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+:root {
+    --primary-color: #427AA1;
+    --secondary-color: #F4AC45;
+    --accent1-color: #283618;
+    --accent2-color: #826251;
+
+    --heading-font: 'open sans', sans-serif;
+    --paragraph-font: 'open sans', sans-serif;
+
+    --nav-background-color: #427AA1;
+    --nav-link-color: #F4AC45;
+    --nav-hover-link-color: #283618;
+    --nav-hover-background-color: #826251;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+p {
+    padding: 25px;
+}
+nav a {
+    text-decoration: none;
+}
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    background-color: #28361878;
+}
+article {
+    margin: 5%;
+    position: relative;
+    background-color: #f4ab4593;
+}
+article img {
+    float: right;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+section{
+    position: relative;
+}
+.first{
+    margin-top: 50%;
+    position: relative;
+}
+
+
