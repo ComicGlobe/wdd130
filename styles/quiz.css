@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    width: 700px;
+    margin: 1rem;
+    text-align: center;
+}
+h1 {
+    font-size: 2rem;
+    color: rgb(13, 161, 48);
+}
+form {
+    width: 700px;
+    margin: 10px;
+    padding: 1rem;
+    border: 2px dashed rgb(117, 117, 117);
+    border-radius: .25rem;
+    background-color: #e6e2ff;
+    display: grid;
+    grid-template-areas: 8;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: .25rem;
+}
+legend {
+    padding: 10px;
+    color: rgb(13, 161, 48);
+    font-size: x-large;
+}
+label{
+    text-align: left;
+    margin: 1rem;
+    margin-bottom: 5px;
+}
+input, select, textarea {
+    padding: .75rem;
+    font-size: larger;
+}
+button {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    padding: 15px;
+    border-radius: .25rem;
+    font-size: larger;
+}
+button:hover {
+    background-color: rgb(117, 255, 126);
+    border-radius: 2rem;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.feedback {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+footer {
+    margin: .7rem;
+    padding: .25rem;
+    width: 700px;
+    text-align: center;
+}
