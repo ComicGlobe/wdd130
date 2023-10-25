@@ -33,12 +33,15 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    border-radius: .25rem;
 }
 nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+    text-decoration: none;
+    border-radius: .25rem;
 }
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
@@ -47,15 +50,18 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+.button {
+    margin-left: 291px;
+    margin-right: 305px;
+    margin-bottom: 50px;
+
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 p {
     padding: 25px;
-}
-nav a {
-    text-decoration: none;
 }
 header img {
     width: 100px;
@@ -152,6 +158,25 @@ section img {
 .adventure img {
     width: 140px;
 }
+
+.offerings {
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.offerings p {
+    grid-column: span 2;
+}
+.offerings img {
+    width: 300px;
+}
+
 figure {
     display: flex;
     flex-flow: column;
@@ -193,7 +218,7 @@ textarea {
     padding-left: 75px;
 }
 .contact button {
-    margin-left: 340px;
+    margin-left: 355px;
     margin-right: 350px;
     padding: 8px;
     border-radius: .25rem;
@@ -203,6 +228,28 @@ textarea {
 .contact button:hover {
     background-color: var(--secondary-color);
     border-radius: .25rem;
+}
+
+.popular {
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 4rem auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+.popular h2 {
+    grid-column: span 3;
+    text-align: center;
+}
+.popular img {
+    width: 200px;
+}
+.popular p{
+    margin: 0;
+    padding-top: 0;
+    padding-left: 40px;
 }
 
 footer {
